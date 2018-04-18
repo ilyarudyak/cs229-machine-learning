@@ -1,3 +1,5 @@
+import numpy as np
+
 from show_image import *
 
 from sklearn.cluster import KMeans
@@ -15,14 +17,24 @@ def get_image_2D(image):
 
 def cluster_small(filename, k=16):
     image_2D = get_image_2D(imread(filename))
-    kmeans = KMeans(n_clusters=k, random_state=42, max_iter=30)
+    kmeans = KMeans(n_clusters=k, random_state=42, max_iter=300)
     kmeans.fit(image_2D)
     return kmeans
 
 
 def compress_large(filename, centroids):
     image = imread(filename)
-    return 0
+    x, y, z = image.shape
+
+    image_2D = get_image_2D(image)
+    m, n = image_2D.shape
+
+    image_2D_compressed = np.zeros((m, n))
+    for i in range(m):
+        index = np.argmin(np.linalg.norm(centroids - image_2D[i, :], axis=1))
+        image_2D_compressed[i, :] = centroids[index]
+
+    return image_2D_compressed.reshape(x, y, z)
 
 
 def recreate_small():
@@ -53,4 +65,4 @@ def compress_and_show():
 
 
 if __name__ == '__main__':
-    recreate_small()
+    compress_and_show()
