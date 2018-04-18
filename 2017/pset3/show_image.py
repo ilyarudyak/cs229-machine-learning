@@ -2,12 +2,17 @@ from matplotlib.image import imread
 import matplotlib.pyplot as plt
 
 
-def show_image(image_filenames):
+def show_images(image_filenames):
     number_images = len(image_filenames)
     for i in range(number_images):
         plt.subplot(1, number_images, i + 1)
         image = imread(image_filenames[i])
         plt.imshow(image)
+    plt.show()
+
+
+def show_image(image):
+    plt.imshow(image)
     plt.show()
 
 
