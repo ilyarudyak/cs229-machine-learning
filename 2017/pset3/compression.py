@@ -17,7 +17,7 @@ def get_image_2D(image):
 
 def cluster_small(filename, k=16):
     image_2D = get_image_2D(imread(filename))
-    kmeans = KMeans(n_clusters=k, random_state=42, max_iter=300)
+    kmeans = KMeans(n_clusters=k, random_state=42, max_iter=30)
     kmeans.fit(image_2D)
     return kmeans
 
@@ -32,7 +32,7 @@ def compress_large(filename, centroids):
     image_2D_compressed = np.zeros((m, n))
     for i in range(m):
         index = np.argmin(np.linalg.norm(centroids - image_2D[i, :], axis=1))
-        image_2D_compressed[i, :] = centroids[index]
+        image_2D_compressed[i, :] = centroids[index, :]
 
     return image_2D_compressed.reshape(x, y, z)
 
