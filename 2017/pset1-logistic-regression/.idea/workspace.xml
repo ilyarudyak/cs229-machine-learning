@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6a171e-7ad1-4ad8-a3a8-29d92836fb0c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/logistic_sklearn.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/plotting_data.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/logistic_sklearn.py" afterPath="$PROJECT_DIR$/logistic_sklearn.py" />
       <change beforePath="$PROJECT_DIR$/../pset3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pset3/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,10 +29,10 @@
       <file leaf-file-name="logistic_sklearn.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logistic_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+            <state relative-caret-position="240">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,8 +53,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/logistic_sklearn.py" />
         <option value="$PROJECT_DIR$/plotting_data.py" />
+        <option value="$PROJECT_DIR$/logistic_sklearn.py" />
       </list>
     </option>
   </component>
@@ -239,10 +236,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logistic_sklearn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        <state relative-caret-position="240">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
