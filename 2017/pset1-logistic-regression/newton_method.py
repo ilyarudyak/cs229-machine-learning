@@ -37,17 +37,16 @@ def gradient_vect(X, y, theta):
     return X.T.dot((sigmoid(z) - 1) * y) / m
 
 
-def hessian(X, y, theta):
+def hessian_sum(X, y, theta):
     m, n = X.shape
     z = (X.dot(theta)) * y
     print(z.shape)
     H = np.zeros((n, n))
     for i in range(n):
         for j in range(n):
-            s = 0
-            for k in range(m):
-                s += sigmoid(z[k]) * (1 - sigmoid(z[k]) * X[k, i] * X[k, j])
-            H[i, j] = s
+            H[i, j] = np.sum(sigmoid(z) * (1 - sigmoid(z))
+                                        * X[:, i].reshape(m, 1)
+                                        * X[:, j].reshape(m, 1))
     return H / m
 
 
@@ -60,14 +59,14 @@ def hessian_vect(X, y, theta):
 
 
 def logistic_newton(X, y):
-    # add column of 1s for theta0
     theta = np.zeros((X.shape[1], 1))
 
     i = 0
     while i < 10:
         grad = gradient_vect(X, y, theta)
-        hess = hessian(X, y, theta)
+        hess = hessian_vect(X, y, theta)
         theta -= np.linalg.inv(hess).dot(grad)
+        print(theta.ravel())
         i += 1
 
     return theta
@@ -76,8 +75,5 @@ def logistic_newton(X, y):
 if __name__ == '__main__':
     X, y = get_data()
     X = np.hstack([np.ones((X.shape[0], 1)), X])
-    theta = np.ones((X.shape[1], 1))
 
-    # print(gradient(X, y, theta))
-    print(gradient_sum(X, y, theta))
-    # print(gradient_vect(X, y, theta))
+    logistic_newton(X, y)

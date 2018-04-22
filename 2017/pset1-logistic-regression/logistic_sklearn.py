@@ -3,6 +3,7 @@ from plotting_data import *
 
 
 def logistic_sklearn(X, y):
+    y = y.reshape(X.shape[0])
     lr = LogisticRegression()
     lr.fit(X, y)
     theta = np.append(lr.intercept_, lr.coef_)
@@ -14,5 +15,5 @@ if __name__ == '__main__':
     theta = logistic_sklearn(X, y)
 
     plot_data(X, y)
-    plot_decision_boundary(X, y, theta)
+    plot_decision_boundary(X, theta)
     plt.show()

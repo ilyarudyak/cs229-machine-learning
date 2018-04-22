@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f6a171e-7ad1-4ad8-a3a8-29d92836fb0c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/newton_method.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/logistic_sklearn.py" afterPath="$PROJECT_DIR$/logistic_sklearn.py" />
+      <change beforePath="$PROJECT_DIR$/newton_method.py" afterPath="$PROJECT_DIR$/newton_method.py" />
       <change beforePath="$PROJECT_DIR$/plotting_data.py" afterPath="$PROJECT_DIR$/plotting_data.py" />
       <change beforePath="$PROJECT_DIR$/../pset3/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../pset3/.idea/workspace.xml" />
     </list>
@@ -19,8 +21,8 @@
       <file leaf-file-name="plotting_data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/plotting_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+            <state relative-caret-position="-99">
+              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -31,8 +33,8 @@
       <file leaf-file-name="logistic_sklearn.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logistic_sklearn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -43,20 +45,26 @@
       <file leaf-file-name="newton_method.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newton_method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="385">
+              <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
               <folding>
                 <element signature="e#70#97#0" expanded="false" />
                 <element signature="e#131#366#0" expanded="false" />
                 <element signature="e#231#346#0" expanded="false" />
-                <element signature="e#694#780#0" expanded="false" />
-                <element signature="e#813#1115#0" expanded="false" />
-                <element signature="e#930#1098#0" expanded="false" />
-                <element signature="e#961#1098#0" expanded="false" />
-                <element signature="e#1153#1294#0" expanded="false" />
-                <element signature="e#1328#1582#0" expanded="false" />
-                <element signature="e#1433#1564#0" expanded="false" />
+                <element signature="e#404#703#0" expanded="false" />
+                <element signature="e#450#474#0" expanded="false" />
+                <element signature="e#742#828#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,9 +84,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/logistic_sklearn.py" />
         <option value="$PROJECT_DIR$/plotting_data.py" />
         <option value="$PROJECT_DIR$/newton_method.py" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/logistic_sklearn.py" />
       </list>
     </option>
   </component>
@@ -137,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.newton_method">
+  <component name="RunManager" selected="Python.logistic_sklearn">
     <configuration name="logistic_sklearn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -199,9 +208,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.newton_method" />
-        <item index="1" class="java.lang.String" itemvalue="Python.plotting_data" />
-        <item index="2" class="java.lang.String" itemvalue="Python.logistic_sklearn" />
+        <item index="0" class="java.lang.String" itemvalue="Python.logistic_sklearn" />
+        <item index="1" class="java.lang.String" itemvalue="Python.newton_method" />
+        <item index="2" class="java.lang.String" itemvalue="Python.plotting_data" />
       </list>
     </recent_temporary>
   </component>
@@ -225,12 +234,12 @@
     <frame x="207" y="6" width="1037" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24975891" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24975891" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45866665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45866665" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -268,10 +277,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/plotting_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        <state relative-caret-position="-99">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
@@ -280,8 +297,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logistic_sklearn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
@@ -290,19 +307,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newton_method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="385">
+          <caret line="68" column="27" lean-forward="false" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
           <folding>
             <element signature="e#70#97#0" expanded="false" />
             <element signature="e#131#366#0" expanded="false" />
             <element signature="e#231#346#0" expanded="false" />
-            <element signature="e#694#780#0" expanded="false" />
-            <element signature="e#813#1115#0" expanded="false" />
-            <element signature="e#930#1098#0" expanded="false" />
-            <element signature="e#961#1098#0" expanded="false" />
-            <element signature="e#1153#1294#0" expanded="false" />
-            <element signature="e#1328#1582#0" expanded="false" />
-            <element signature="e#1433#1564#0" expanded="false" />
+            <element signature="e#404#703#0" expanded="false" />
+            <element signature="e#450#474#0" expanded="false" />
+            <element signature="e#742#828#0" expanded="false" />
           </folding>
         </state>
       </provider>

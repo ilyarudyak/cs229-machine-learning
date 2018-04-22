@@ -23,7 +23,7 @@ def plot_data_and_show(X, y):
     plt.show()
 
 
-def plot_decision_boundary(X,theta):
+def plot_decision_boundary(X, theta):
     t0, t1, t2 = theta
     x1 = np.linspace(np.floor(np.min(X[:, 0])), np.floor(np.max(X[:, 0])), 100)
     x2 = -(t0 + t1 * x1) / t2
