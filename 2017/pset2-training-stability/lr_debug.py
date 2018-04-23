@@ -1,10 +1,5 @@
-from __future__ import division
 import numpy as np
 
-try:
-    xrange
-except NameError:
-    xrange = range
 
 def add_intercept(X_):
     m, n = X_.shape
@@ -13,39 +8,52 @@ def add_intercept(X_):
     X[:, 1:] = X_
     return X
 
+
 def load_data(filename):
     D = np.loadtxt(filename)
     Y = D[:, 0]
     X = D[:, 1:]
     return add_intercept(X), Y
 
+
 def calc_grad(X, Y, theta):
     m, n = X.shape
-    grad = np.zeros(theta.shape)
+    # grad = np.zeros(theta.shape)
 
     margins = Y * X.dot(theta)
     probs = 1. / (1 + np.exp(margins))
-    grad = -(1./m) * (X.T.dot(probs * Y))
+    grad = -(1. / m) * (X.T.dot(probs * Y))
 
     return grad
 
-def logistic_regression(X, Y):
+
+def logistic_regression(X, Y,
+                        learning_rate=10,
+                        max_iterations=1e5,
+                        scaling=False,
+                        verbose=False):
     m, n = X.shape
     theta = np.zeros(n)
-    learning_rate = 10
 
     i = 0
     while True:
         i += 1
         prev_theta = theta
         grad = calc_grad(X, Y, theta)
-        theta = theta  - learning_rate * (grad)
+        theta = theta - learning_rate * grad
         if i % 10000 == 0:
-            print('Finished %d iterations' % i)
+            if scaling:
+                learning_rate /= i ^ 2
+            if verbose:
+                print('Finished %d iterations' % i)
+        if i > max_iterations:
+            print('lr =', learning_rate, np.linalg.norm(prev_theta - theta))
+            break
         if np.linalg.norm(prev_theta - theta) < 1e-15:
             print('Converged in %d iterations' % i)
             break
     return
+
 
 def main():
     print('==== Training model on data set A ====')
@@ -57,6 +65,7 @@ def main():
     logistic_regression(Xb, Yb)
 
     return
+
 
 if __name__ == '__main__':
     main()

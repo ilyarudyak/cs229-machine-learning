@@ -1,0 +1,19 @@
+(1) it seems we can not achieve convergence just with
+    changing learning rate.
+
+    max_iterations = 1e6
+    lr = 0.0001 3.46869458577e-06
+    lr = 0.001 6.68741261676e-06
+    lr = 0.01 1.42903456281e-05
+    lr = 0.1 3.36313080442e-05
+
+    max_iterations = 1e5
+    lr = 0.0001 8.5426356928e-06
+    lr = 0.001 3.46868373428e-05
+    lr = 0.01 6.68735626383e-05
+    lr = 0.1 0.000142901674262
+
+(2) it works with scaling (decrease learning rate by 1 / iter^2
+    every 10,000 iterations) even with initial lr = 10
+
+    Converged in 30001 iterations
