@@ -66,7 +66,6 @@ def logistic_newton(X, y):
         grad = gradient_vect(X, y, theta)
         hess = hessian_vect(X, y, theta)
         theta -= np.linalg.inv(hess).dot(grad)
-        print(theta.ravel())
         i += 1
 
     return theta
@@ -76,4 +75,8 @@ if __name__ == '__main__':
     X, y = get_data()
     X = np.hstack([np.ones((X.shape[0], 1)), X])
 
-    logistic_newton(X, y)
+    theta = logistic_newton(X, y)
+
+    plot_data(X[:, 1:3], y)
+    plot_decision_boundary(X[:, 1:3], theta)
+    plt.show()
