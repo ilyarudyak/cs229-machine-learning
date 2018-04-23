@@ -17,3 +17,8 @@
     every 10,000 iterations) even with initial lr = 10
 
     Converged in 30001 iterations
+
+(3) normalization by itself doesn't work:
+
+    max_iterations = 1e6
+    lr = 1e-05 8.54263722731e-07

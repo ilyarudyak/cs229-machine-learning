@@ -13,5 +13,10 @@ def scaling_lr():
     logistic_regression(Xb, Yb, scaling=True)
 
 
+def normalizes_lr():
+    Xb, Yb = load_data_normalized('data_b.txt')
+    logistic_regression(Xb, Yb, learning_rate=1e-5, max_iterations=1e6)
+
+
 if __name__ == '__main__':
-    scaling_lr()
+    normalizes_lr()

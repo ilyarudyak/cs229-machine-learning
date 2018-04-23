@@ -16,6 +16,21 @@ def load_data(filename):
     return add_intercept(X), Y
 
 
+def normalize(X_):
+    a, b = X_[:, 0], X_[:, 1]
+    X = np.zeros_like(X_)
+    X[:, 0] = (a - np.mean(a)) / np.std(a)
+    X[:, 1] = (b - np.mean(b)) / np.std(b)
+    return X
+
+
+def load_data_normalized(filename):
+    D = np.loadtxt(filename)
+    Y = D[:, 0]
+    X = D[:, 1:]
+    return add_intercept(X), Y
+
+
 def calc_grad(X, Y, theta):
     m, n = X.shape
     # grad = np.zeros(theta.shape)
