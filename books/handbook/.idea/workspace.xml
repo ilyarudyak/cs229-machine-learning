@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8e3952-f821-4060-a2c7-083cf75e7560" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pca/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pca/intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pca/digits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-logistic-regression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-logistic-regression/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset2-training-stability/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset2-training-stability/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset2-training-stability/lr_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset2-training-stability/lr_debug.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,14 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="intro.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="intro.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pca/intro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+            <state relative-caret-position="258">
+              <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
+                <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#316#543#0" />
-                <element signature="e#712#790#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="digits.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pca/digits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -50,6 +59,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pca/intro.py" />
+        <option value="$PROJECT_DIR$/pca/digits.py" />
       </list>
     </option>
   </component>
@@ -102,7 +112,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.digits">
+    <configuration name="digits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="handbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pca" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pca/digits.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="intro" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="handbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,8 +149,13 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.intro" />
+      <item itemvalue="Python.digits" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.digits" />
         <item itemvalue="Python.intro" />
       </list>
     </recent_temporary>
@@ -151,7 +184,7 @@
       <window_info anchor="bottom" id="Python Console" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32933334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32933334" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -169,11 +202,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pca/intro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
+        <state relative-caret-position="258">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
+            <element signature="e#0#18#0" expanded="true" />
             <element signature="e#316#543#0" />
-            <element signature="e#712#790#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pca/digits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
