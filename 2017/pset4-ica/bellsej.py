@@ -12,6 +12,7 @@
 
 import sounddevice as sd
 import numpy as np
+from scipy.special import expit
 
 Fs = 11025
 
@@ -35,18 +36,26 @@ def unmixer(X):
 
     anneal = [0.1, 0.1, 0.1, 0.05, 0.05, 0.05, 0.02, 0.02, 0.01, 0.01,
               0.005, 0.005, 0.002, 0.002, 0.001, 0.001]
-    print('Separating tracks ...')
+    print('separating tracks ...')
     ######## Your code here ##########
-
+    # see description of random permutation and anneal in pset note
+    for alpha in anneal:
+        print(f'starting alpha = {alpha} ...')
+        for i in np.random.permutation(np.arange(M)):
+            # expit() is sigmoid from scipy
+            grad = 1 - 2 * expit(W.dot(X[i, :].T))
+            grad = np.outer(grad, X[i, :])
+            grad += np.linalg.inv(W.T)
+            W += alpha * grad
     ###################################
     return W
 
 
 def unmix(X, W):
-    S = np.zeros(X.shape)
+    # S = np.zeros(X.shape)
 
     ######### Your code here ##########
-
+    S = X.dot(W.T)
     ##################################
     return S
 
@@ -54,9 +63,9 @@ def unmix(X, W):
 def main():
     X = normalize(load_data())
 
-    for i in range(X.shape[1]):
-        print('Playing mixed track %d' % i)
-        play(X[:, i])
+    # for i in range(X.shape[1]):
+    #     print('Playing mixed track %d' % i)
+    #     play(X[:, i])
 
     W = unmixer(X)
     S = normalize(unmix(X, W))
