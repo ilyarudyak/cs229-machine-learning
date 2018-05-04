@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8e3952-f821-4060-a2c7-083cf75e7560" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clustering/digits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clustering/compression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-logistic-regression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-logistic-regression/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/misc.xml" afterDir="false" />
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="digits.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="digits.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/clustering/digits.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+            <state>
+              <caret selection-end-line="8" selection-end-column="44" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
                 <element signature="e#286#326#0" />
@@ -51,6 +50,19 @@
                 <element signature="e#801#1157#0" />
                 <element signature="e#1050#1137#0" />
                 <element signature="e#1129#1185#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clustering/compression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+                <marker date="1525437085254" expanded="true" signature="610:618" ph="..." />
               </folding>
             </state>
           </provider>
@@ -76,6 +88,7 @@
         <option value="$PROJECT_DIR$/pca/eigenfaces.py" />
         <option value="$PROJECT_DIR$/clustering/kmeans.py" />
         <option value="$PROJECT_DIR$/clustering/digits.py" />
+        <option value="$PROJECT_DIR$/clustering/compression.py" />
       </list>
     </option>
   </component>
@@ -133,7 +146,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.digits (1)">
+  <component name="RunManager" selected="Python.compression">
+    <configuration name="compression" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="handbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/compression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="digits (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="handbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,24 +219,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="intro" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="handbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pca" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pca/intro.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="kmeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="handbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,19 +238,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.intro" />
       <item itemvalue="Python.digits" />
       <item itemvalue="Python.eigenfaces" />
       <item itemvalue="Python.kmeans" />
       <item itemvalue="Python.digits (1)" />
+      <item itemvalue="Python.compression" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.compression" />
         <item itemvalue="Python.digits (1)" />
         <item itemvalue="Python.kmeans" />
         <item itemvalue="Python.eigenfaces" />
         <item itemvalue="Python.digits" />
-        <item itemvalue="Python.intro" />
       </list>
     </recent_temporary>
   </component>
@@ -263,9 +276,9 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3287483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3287483" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32933334" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3287483" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -383,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clustering/digits.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+        <state>
+          <caret selection-end-line="8" selection-end-column="44" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
             <element signature="e#286#326#0" />
@@ -394,6 +407,17 @@
             <element signature="e#801#1157#0" />
             <element signature="e#1050#1137#0" />
             <element signature="e#1129#1185#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clustering/compression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+            <marker date="1525437085254" expanded="true" signature="610:618" ph="..." />
           </folding>
         </state>
       </provider>
