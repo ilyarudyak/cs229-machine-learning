@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8e3952-f821-4060-a2c7-083cf75e7560" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/clustering/gmm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-logistic-regression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-logistic-regression/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/misc.xml" afterDir="false" />
@@ -12,8 +13,8 @@
       <change beforePath="$PROJECT_DIR$/../../2017/pset3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset3/compression2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset3/compression2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset4-ica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset4-ica/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clustering/compression.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering/compression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,41 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="kmeans.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clustering/kmeans.py">
+      <file leaf-file-name="gmm.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/clustering/gmm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-298">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="digits.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/clustering/digits.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="61" column="13" lean-forward="true" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-                <element signature="e#360#476#0" />
-                <element signature="e#514#729#0" />
-                <element signature="e#613#714#0" />
-                <element signature="e#801#1157#0" />
-                <element signature="e#1050#1137#0" />
-                <element signature="e#1129#1185#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/clustering/compression.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="48" column="23" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="23" />
+            <state relative-caret-position="129">
+              <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -87,12 +58,13 @@
         <option value="$PROJECT_DIR$/clustering/kmeans.py" />
         <option value="$PROJECT_DIR$/clustering/digits.py" />
         <option value="$PROJECT_DIR$/clustering/compression.py" />
+        <option value="$PROJECT_DIR$/clustering/gmm.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="226" />
-    <option name="y" value="16" />
+    <option name="x" value="119" />
+    <option name="y" value="14" />
     <option name="width" value="1038" />
     <option name="height" value="749" />
   </component>
@@ -144,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.compression">
+  <component name="RunManager" selected="Python.gmm">
     <configuration name="compression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="handbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -181,24 +153,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="digits" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="handbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pca" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pca/digits.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="eigenfaces" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="handbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,6 +166,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pca/eigenfaces.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="gmm" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="handbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/gmm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,19 +208,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.digits" />
       <item itemvalue="Python.eigenfaces" />
       <item itemvalue="Python.kmeans" />
       <item itemvalue="Python.digits (1)" />
       <item itemvalue="Python.compression" />
+      <item itemvalue="Python.gmm" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gmm" />
         <item itemvalue="Python.compression" />
         <item itemvalue="Python.digits (1)" />
         <item itemvalue="Python.kmeans" />
         <item itemvalue="Python.eigenfaces" />
-        <item itemvalue="Python.digits" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +238,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="226" y="16" width="1038" height="749" extended-state="0" />
+    <frame x="119" y="14" width="1038" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2495183" />
@@ -409,8 +381,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clustering/compression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="362">
+          <caret line="53" column="14" lean-forward="true" selection-start-line="53" selection-start-column="14" selection-end-line="53" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clustering/gmm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="33" column="18" lean-forward="true" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
