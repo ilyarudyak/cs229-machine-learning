@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 
 from sklearn.cluster import MiniBatchKMeans
 from sklearn.datasets import load_sample_image
@@ -43,9 +44,21 @@ def recolor_image(image, n_colors=16):
     return reshape_image_from_kmeans(image_recolored)
 
 
+def show_images(images, titles):
+    fig, ax = plt.subplots(1, images.shape[0], figsize=(16, 6))
+    # fig.subplots_adjust(wspace=0.05)
+    for axi, image, title in zip(ax.flat, images, titles):
+        axi.set(xticks=[], yticks=[])
+        axi.imshow(image)
+        axi.set_title(title, size=16)
+    plt.show()
+
+
 if __name__ == '__main__':
     sns.set()
 
     china = get_image()
     china_recolored = recolor_image(china)
-    show_image(china_recolored)
+    images = np.array([china, china_recolored])
+    titles = np.array(['original image', '16-color image'])
+    show_images(images, titles)
