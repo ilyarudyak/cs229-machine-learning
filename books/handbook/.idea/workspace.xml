@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8e3952-f821-4060-a2c7-083cf75e7560" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/clustering/compression.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-logistic-regression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-logistic-regression/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/misc.xml" afterDir="false" />
@@ -13,7 +12,8 @@
       <change beforePath="$PROJECT_DIR$/../../2017/pset3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset3/compression2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset3/compression2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset4-ica/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset4-ica/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clustering/compression.py" beforeDir="false" afterPath="$PROJECT_DIR$/clustering/compression.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,11 +58,10 @@
       <file leaf-file-name="compression.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/clustering/compression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="342">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
-                <marker date="1525437085254" expanded="true" signature="610:618" ph="..." />
               </folding>
             </state>
           </provider>
@@ -276,7 +275,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3287483" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5405777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3287483" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -413,11 +412,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/clustering/compression.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="342">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-            <marker date="1525437085254" expanded="true" signature="610:618" ph="..." />
           </folding>
         </state>
       </provider>

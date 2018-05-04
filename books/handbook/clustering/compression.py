@@ -1,12 +1,7 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
-import numpy as np
 
 from sklearn.cluster import MiniBatchKMeans
-from sklearn.datasets import load_digits
-from scipy.stats import mode
-from sklearn.metrics import accuracy_score
-from sklearn.metrics import confusion_matrix
 from sklearn.datasets import load_sample_image
 
 
@@ -35,10 +30,17 @@ def recolor_image(image, n_colors=16):
     centroids = kmeans.cluster_centers_
     clusters = kmeans.predict(image_reshaped)
 
-    for i in range(n_colors):
-        image_reshaped[clusters == i, :] = centroids[i, :]
+    # for i in range(n_colors):
+    #     image_reshaped[clusters == i, :] = centroids[i, :]
+    # return reshape_image_from_kmeans(image_reshaped)
 
-    return reshape_image_from_kmeans(image_reshaped)
+    # vectorised implementation
+    image_recolored = centroids[clusters].astype('uint8')
+
+    # print(centroids[clusters[0]])
+    # print(clusters[:10])
+    # print(image_recolored[:10])
+    return reshape_image_from_kmeans(image_recolored)
 
 
 if __name__ == '__main__':
