@@ -23,7 +23,11 @@ def show_data_sklearn(X):
 def show_data_gmm(X):
     gmm = GaussianMixture(n_components=n_clusters).fit(X)
     clusters = gmm.predict(X)
-    plt.scatter(X[:, 0], X[:, 1], c=clusters, s=20, cmap='tab10')
+    probs = gmm.predict_proba(X)
+    print(probs[:10, :])
+
+    size = 50 * probs.max(1) ** 2  # square emphasizes differences
+    plt.scatter(X[:, 0], X[:, 1], c=clusters, s=size, cmap='tab10')
     plt.show()
 
 
