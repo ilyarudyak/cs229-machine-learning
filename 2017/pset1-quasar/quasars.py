@@ -1,8 +1,7 @@
 import numpy as np
 import matplotlib as mpl
-import matplotlib.pyplot as plt
-
 mpl.use('Agg')
+import matplotlib.pyplot as plt
 
 
 def load_data():
@@ -133,4 +132,6 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    train, test, wavelengths = load_data()
+    print(f'train:{train.shape} test:{test.shape} '
+          f'wavelength:{wavelengths.shape}')

@@ -38,16 +38,19 @@ if __name__ == '__main__':
     im_large_3D = imread('mandrill-large.tiff')
     im_large_2D = im_large_3D.reshape(-1, 3)
 
-    im_small_3D = imread('mandrill-small.tiff')
-    im_small_2D = im_small_3D.reshape(-1, 3)
+    print(im_large_3D.shape)
+    print(im_large_2D.shape)
 
-    centroids = k_means_sklearn(im_small_2D)
-    image1 = compress_sol(im_large_2D, centroids)
-    image2 = compress(im_large_2D, centroids)
-
-    # print(image1[0, :10, :])
-    # print(image2[0, :10, :])
-    # print(image1 == image2)
-
-    plt.imshow(image2)
-    plt.show()
+    # im_small_3D = imread('mandrill-small.tiff')
+    # im_small_2D = im_small_3D.reshape(-1, 3)
+    #
+    # centroids = k_means_sklearn(im_small_2D)
+    # image1 = compress_sol(im_large_2D, centroids)
+    # image2 = compress(im_large_2D, centroids)
+    #
+    # # print(image1[0, :10, :])
+    # # print(image2[0, :10, :])
+    # # print(image1 == image2)
+    #
+    # plt.imshow(image2)
+    # plt.show()

@@ -3,12 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="97a3d310-b157-42bd-a953-df80cff710c3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../pset1-logistic-regression/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pset1-logistic-regression/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pset1-quasar/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pset1-quasar/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pset1-quasar/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pset1-quasar/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pset1-quasar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pset1-quasar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pset1-quasar/quasars.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pset1-quasar/quasars.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pset2-training-stability/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pset2-training-stability/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pset2-training-stability/lr_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pset2-training-stability/lr_debug.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pset3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pset3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pset3/compression2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../pset3/compression2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../books/handbook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/handbook/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../books/handbook/pca/eigenfaces.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/handbook/pca/eigenfaces.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,23 +23,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bellsej.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bellsej.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bellsej.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="315">
+              <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
               <folding>
                 <element signature="e#276#300#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bellsej.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bellsej.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -53,8 +48,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="207" />
-    <option name="y" value="6" />
+    <option name="x" value="134" />
+    <option name="y" value="14" />
     <option name="width" value="1037" />
     <option name="height" value="772" />
   </component>
@@ -66,6 +61,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -77,7 +73,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,9 +130,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="207" y="6" width="1037" height="772" extended-state="0" />
+    <frame x="134" y="14" width="1037" height="772" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24975891" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24975891" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
@@ -156,6 +152,9 @@
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.m" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -163,7 +162,7 @@
     <entry file="file://$PROJECT_DIR$/bellsej.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#276#300#0" expanded="true" />
           </folding>
@@ -184,6 +183,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bellsej.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#276#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bellsej.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bellsej.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+          <folding>
+            <element signature="e#276#300#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

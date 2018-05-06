@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 
 def add_intercept(X_):
@@ -42,6 +43,24 @@ def calc_grad(X, Y, theta):
     return grad
 
 
+def calc_grad2(X, Y, theta):
+    m, n = X.shape
+    # grad = np.zeros(theta.shape)
+
+    margins = Y * X.dot(theta)
+    probs = 1. / (1 + np.exp(-margins))
+    grad = -(1. / m) * (X.T.dot((1 - probs) * Y))
+
+    return grad
+
+
+def get_loss(X, Y, theta):
+    margins = Y * X.dot(theta)
+    log_probs = np.log(1. / (1 + np.exp(-margins)))
+
+    return -np.mean(log_probs)
+
+
 def logistic_regression(X, Y,
                         learning_rate=10,
                         max_iterations=1e5,
@@ -50,34 +69,42 @@ def logistic_regression(X, Y,
     m, n = X.shape
     theta = np.zeros(n)
 
+    size = int(max_iterations / 10000)
+    loss = np.zeros(size)
+
     i = 0
     while True:
         i += 1
         prev_theta = theta
-        grad = calc_grad(X, Y, theta)
+        # grad = calc_grad(X, Y, theta)
+        grad = calc_grad2(X, Y, theta)
         theta = theta - learning_rate * grad
         if i % 10000 == 0:
+            loss[int(i / 10000) - 1] = get_loss(X, Y, theta)
             if scaling:
                 learning_rate /= i ^ 2
             if verbose:
-                print('Finished %d iterations' % i)
+                print('Finished iterations:', i, 'loss:', loss)
         if i > max_iterations:
             print('lr =', learning_rate, np.linalg.norm(prev_theta - theta))
             break
         if np.linalg.norm(prev_theta - theta) < 1e-15:
             print('Converged in %d iterations' % i)
             break
-    return
+    return loss
 
 
 def main():
-    print('==== Training model on data set A ====')
-    Xa, Ya = load_data('data_a.txt')
-    logistic_regression(Xa, Ya)
+    # print('==== Training model on data set A ====')
+    # Xa, Ya = load_data('data_a.txt')
+    # logistic_regression(Xa, Ya, verbose=True)
 
     print('\n==== Training model on data set B ====')
     Xb, Yb = load_data('data_b.txt')
-    logistic_regression(Xb, Yb)
+    loss = logistic_regression(Xb, Yb, max_iterations=1e5)
+
+    plt.plot(loss)
+    plt.show()
 
     return
 
