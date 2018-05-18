@@ -8,6 +8,9 @@ from sklearn.tree import DecisionTreeRegressor
 
 import visuals as vs
 
+import locale
+locale.setlocale( locale.LC_ALL, '' )
+
 
 def get_data():
     data = pd.read_csv('housing.csv')
@@ -59,9 +62,25 @@ def fit_model(X, y):
     return grid.best_estimator_
 
 
+def get_prediction():
+    return model.predict(client_data)
+
+
+# https://stackoverflow.com/a/320951/2047442
+def print_prediction():
+    for i, p in enumerate(prediction):
+        print(f'client{i+1}: price={locale.currency(p, grouping=True)}')
+
+
 if __name__ == '__main__':
     data, prices, features = get_data()
     X_train, X_test, y_train, y_test = split_data(features, prices)
 
-    reg = fit_model(X_train, y_train)
-    print(f'optimal depth:{reg.get_params()["max_depth"]}')
+    model = fit_model(X_train, y_train)
+    client_data = [[5, 17, 15],   # Client 1
+                    [4, 32, 22],  # Client 2
+                    [8, 3, 12]]   # Client 3
+    prediction = get_prediction()
+    print_prediction()
+
+    # vs.PredictTrials(features, prices, fit_model, client_data)
