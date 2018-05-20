@@ -24,8 +24,8 @@ def ModelLearning(X, y):
         regressor = DecisionTreeRegressor(max_depth=depth)
 
         # Calculate the training and testing scores
-        sizes, train_scores, test_scores = curves.learning_curve(regressor, X, y, \
-                                                                 cv=cv, train_sizes=train_sizes, scoring='r2')
+        sizes, train_scores, test_scores = curves.learning_curve(
+            regressor, X, y, cv=cv, train_sizes=train_sizes, scoring='r2')
 
         # Find the mean and standard deviation for smoothing
         train_std = np.std(train_scores, axis=1)

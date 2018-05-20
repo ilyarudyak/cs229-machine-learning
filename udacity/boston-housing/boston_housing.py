@@ -9,7 +9,7 @@ from sklearn.tree import DecisionTreeRegressor
 import visuals as vs
 
 import locale
-locale.setlocale( locale.LC_ALL, '' )
+locale.setlocale(locale.LC_ALL, '')
 
 
 def get_data():
@@ -76,11 +76,16 @@ if __name__ == '__main__':
     data, prices, features = get_data()
     X_train, X_test, y_train, y_test = split_data(features, prices)
 
-    model = fit_model(X_train, y_train)
-    client_data = [[5, 17, 15],   # Client 1
-                    [4, 32, 22],  # Client 2
-                    [8, 3, 12]]   # Client 3
-    prediction = get_prediction()
-    print_prediction()
+    vs.ModelLearning(X_train, y_train)
+    # vs.ModelComplexity(X_train, y_train)
+    plt.show()
+
+    # model = fit_model(X_train, y_train)
+    # client_data = [[5, 17, 15],   # Client 1
+    #                 [4, 32, 22],  # Client 2
+    #                 [8, 3, 12]]   # Client 3
+    # prediction = get_prediction()
+    # print_prediction()
 
     # vs.PredictTrials(features, prices, fit_model, client_data)
+
