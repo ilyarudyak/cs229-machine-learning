@@ -76,8 +76,8 @@ if __name__ == '__main__':
     data, prices, features = get_data()
     X_train, X_test, y_train, y_test = split_data(features, prices)
 
-    vs.ModelLearning(X_train, y_train)
-    # vs.ModelComplexity(X_train, y_train)
+    # vs.ModelLearning(X_train, y_train)
+    vs.ModelComplexity(X_train, y_train)
     plt.show()
 
     # model = fit_model(X_train, y_train)
