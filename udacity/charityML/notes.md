@@ -37,6 +37,7 @@ predicts whether an individual makes more than `$50,000`.
 ### algorithms comparison
 
 - accuracy score: 
+    - naive classifier = `24.8%` (== greater_percent)
     - decision tree accuracy = `85.1%`
     - gaussian NB accuracy = `59.8%`
     - svm accuracy = `83.7%`

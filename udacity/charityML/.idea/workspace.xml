@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2abe2d0-46d1-4801-a7d6-ed5115f06db9" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/validation_curves.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../boston-housing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boston-housing/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../boston-housing/complexity_curves.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boston-housing/complexity_curves.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/charityML.py" beforeDir="false" afterPath="$PROJECT_DIR$/charityML.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
@@ -21,24 +23,41 @@
         <entry file="file://$PROJECT_DIR$/notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="210">
-                <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+              <first_editor relative-caret-position="362">
+                <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="charityML.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="charityML.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/charityML.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="191">
+              <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#333#588#0" />
+                <element signature="e#504#819#0" />
                 <element signature="e#662#809#0" />
                 <element signature="e#897#1671#0" />
                 <element signature="e#1080#1141#0" />
+                <element signature="e#1745#2038#0" />
+                <element signature="e#2231#2363#0" />
+                <element signature="e#2380#2480#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation_curves.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/validation_curves.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-232">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,12 +81,13 @@
         <option value="$PROJECT_DIR$/visuals.py" />
         <option value="$PROJECT_DIR$/notes.md" />
         <option value="$PROJECT_DIR$/charityML.py" />
+        <option value="$PROJECT_DIR$/validation_curves.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="148" />
-    <option name="y" value="6" />
+    <option name="x" value="130" />
+    <option name="y" value="35" />
     <option name="width" value="1099" />
     <option name="height" value="695" />
   </component>
@@ -109,7 +129,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.validation_curves">
     <configuration name="charityML" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="charityML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -128,8 +148,31 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="validation_curves" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="charityML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/validation_curves.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.charityML" />
+      <item itemvalue="Python.validation_curves" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.validation_curves" />
         <item itemvalue="Python.charityML" />
       </list>
     </recent_temporary>
@@ -148,7 +191,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="148" y="6" width="1099" height="695" extended-state="0" />
+    <frame x="130" y="35" width="1099" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24931756" />
@@ -190,39 +233,70 @@
           <caret line="53" column="71" lean-forward="true" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#333#588#0" />
+            <element signature="e#504#819#0" />
             <element signature="e#662#809#0" />
             <element signature="e#897#1671#0" />
             <element signature="e#1080#1141#0" />
+            <element signature="e#1745#2038#0" />
+            <element signature="e#2231#2363#0" />
+            <element signature="e#2380#2480#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visuals.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" selection-start-line="7" selection-start-column="2" selection-end-line="8" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="210">
-            <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+          <first_editor relative-caret-position="362">
+            <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/visuals.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#221#222#0" />
+            <element signature="e#638#1609#0" />
+            <element signature="e#638#720#1" />
+            <element signature="e#890#1270#0" />
+            <element signature="e#1322#1441#0" />
+            <element signature="e#1460#1570#0" />
+            <element signature="e#1653#1976#1" />
+            <element signature="e#4588#5397#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/charityML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="191">
+          <caret line="60" column="24" lean-forward="true" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#333#588#0" />
+            <element signature="e#504#819#0" />
             <element signature="e#662#809#0" />
             <element signature="e#897#1671#0" />
             <element signature="e#1080#1141#0" />
+            <element signature="e#1745#2038#0" />
+            <element signature="e#2231#2363#0" />
+            <element signature="e#2380#2480#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/validation_curves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-232">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

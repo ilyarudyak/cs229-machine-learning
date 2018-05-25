@@ -78,8 +78,9 @@ def fit_svm():
 
 if __name__ == '__main__':
     X_train, X_test, y_train, y_test = split_data()
+    print(X_train.shape)
 
     # print(f'decision tree accuracy = {fit_decision_tree()*100:.1f}%')
     # print(f'gaussian NB accuracy = {fit_gaussian_nb()*100:.1f}%')
-    print(f'svm accuracy = {fit_svm()*100:.1f}%')
+    # print(f'svm accuracy = {fit_svm()*100:.1f}%')
 
