@@ -5,12 +5,15 @@ import seaborn as sns; sns.set()
 from charityML import split_data
 from sklearn.model_selection import validation_curve
 from sklearn.tree import DecisionTreeClassifier
+from sklearn.metrics import make_scorer, fbeta_score
 
 
-def plot_validation_curve(sample=.1,
-                          param_name='max_depth',
+# where to find possible scoring values?
+# http://scikit-learn.org/stable/modules/model_evaluation.html
+def plot_validation_curve(sample=None,
+                          param_name=None,
                           scoring='accuracy',
-                          param_range=np.arange(1, 11)):
+                          param_range=None):
     train_mean, test_mean = train_model(sample, param_name, scoring, param_range)
     plt.plot(param_range, train_mean, 'o-', color='r', label='train')
     plt.plot(param_range, test_mean, 'o-', color='g', label='test')
@@ -19,10 +22,9 @@ def plot_validation_curve(sample=.1,
 
 
 def train_model(sample, param_name, scoring, param_range):
-    model = DecisionTreeClassifier()
-    sample = int(sample * X_train.shape[0])
+    model = DecisionTreeClassifier(random_state=42)
     train_scores, test_scores = validation_curve(
-        model, X_train[:sample], y_train[:sample],
+        model, X_train, y_train,
         cv=10,
         param_name=param_name, param_range=param_range,
         scoring=scoring)
@@ -37,12 +39,21 @@ def format_plot(sample, param_name, scoring):
     plt.xlabel(param_name)
     plt.ylabel('mean score')
     plt.legend()
-    plt.title(f'validation curve: scoring=\'{scoring}\'; sample={sample*100:.0f}%')
+    plt.title(f'validation curve: scoring=\'{scoring}\'; \nsample={sample*100:.0f}%')
 
 
 if __name__ == '__main__':
-    X_train, X_test, y_train, y_test = split_data()
+    sample = .1
+    X_train, X_test, y_train, y_test = split_data(sample=sample)
+    scorer = make_scorer(fbeta_score, beta=0.5, average='micro')
+
+    # plot_validation_curve(sample=sample,
+    #                       param_name='max_depth',
+    #                       param_range=np.arange(1, 11),
+    #                       scoring=scorer)
 
     min_samples_range = np.array([5, 10, 25, 50, 100, 200, 300, 400, 500, 1000])
-    plot_validation_curve(param_name='min_samples_split',
-                          param_range=min_samples_range)
+    plot_validation_curve(sample=sample,
+                          param_name='min_samples_split',
+                          param_range=min_samples_range,
+                          scoring=scorer)
