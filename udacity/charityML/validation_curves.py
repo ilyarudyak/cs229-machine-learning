@@ -43,5 +43,6 @@ def format_plot(sample, param_name, scoring):
 if __name__ == '__main__':
     X_train, X_test, y_train, y_test = split_data()
 
+    min_samples_range = np.array([5, 10, 25, 50, 100, 200, 300, 400, 500, 1000])
     plot_validation_curve(param_name='min_samples_split',
-                          param_range=np.array([5, 10, 25, 50, 100, 200, 300, 400, 500, 1000]))
+                          param_range=min_samples_range)

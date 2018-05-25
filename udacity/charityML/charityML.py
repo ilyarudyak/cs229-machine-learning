@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import accuracy_score, fbeta_score
 
 
 def get_raw_data():
@@ -53,34 +53,48 @@ def preprocess_data():
     return income, features_final
 
 
-def split_data():
+def split_data(sample=.1):
     income, features_final = preprocess_data()
-    return train_test_split(features_final, income, test_size=0.2, random_state=0)
+    X_train, X_test, y_train, y_test = train_test_split(
+        features_final, income, test_size=0.2, random_state=0)
+    sample = int(sample * X_train.shape[0])
+    return X_train[:sample], X_test, y_train[:sample], y_test
 
 
 def fit_decision_tree():
-    dt = DecisionTreeClassifier(min_samples_split=50)
+    dt = DecisionTreeClassifier(min_samples_split=300)
     dt.fit(X_train, y_train)
-    return accuracy_score(y_test, dt.predict(X_test))
+    y_pred = dt.predict(X_test)
+    return accuracy_score(y_test, y_pred), fbeta_score(y_test, y_pred, beta=.5)
 
 
 def fit_gaussian_nb():
     gnb = GaussianNB()
     gnb.fit(X_train, y_train)
-    return accuracy_score(y_test, gnb.predict(X_test))
+    y_pred = gnb.predict(X_test)
+    return accuracy_score(y_test, y_pred), fbeta_score(y_test, y_pred, beta=.5)
 
 
 def fit_svm():
     svc = svm.SVC()
     svc.fit(X_train, y_train)
-    return accuracy_score(y_test, svc.predict(X_test))
+    y_pred = svc.predict(X_test)
+    return accuracy_score(y_test, y_pred), fbeta_score(y_test, y_pred, beta=.5)
 
 
 if __name__ == '__main__':
     X_train, X_test, y_train, y_test = split_data()
     print(X_train.shape)
 
-    # print(f'decision tree accuracy = {fit_decision_tree()*100:.1f}%')
-    # print(f'gaussian NB accuracy = {fit_gaussian_nb()*100:.1f}%')
-    # print(f'svm accuracy = {fit_svm()*100:.1f}%')
+    # accuracy, fbeta05 = fit_decision_tree()
+    # print(f'decision tree accuracy = {accuracy*100:.1f}% '
+    #       f'beta .5 = {fbeta05*100:.1f}%')
+
+    # accuracy, fbeta05 = fit_gaussian_nb()
+    # print(f'gaussian NB accuracy = {accuracy*100:.1f}% '
+    #       f'beta .5 = {fbeta05*100:.1f}%')
+
+    accuracy, fbeta05 = fit_svm()
+    print(f'svm accuracy = {accuracy*100:.1f}% '
+          f'beta .5 = {fbeta05*100:.1f}%')
 

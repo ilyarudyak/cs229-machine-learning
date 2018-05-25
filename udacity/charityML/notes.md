@@ -37,11 +37,11 @@ greater_percent=`24.8%`
 
 ### algorithms comparison
 
-- accuracy score: 
+- accuracy score (for 10% sample): 
     - naive classifier = `24.8%` (== greater_percent)
-    - decision tree accuracy = `85.1%`
-    - gaussian NB accuracy = `59.8%`
-    - svm accuracy = `83.7%`
+    - decision tree (min_samples_split=`300`) accuracy = `85.1%` beta .5 = `70.9%` 
+    - gaussian NB accuracy = `36.6%` beta .5 = `32.0%`
+    - svm accuracy = `83.3%` beta .5 = `67.1%`
 
 ### plans
 
