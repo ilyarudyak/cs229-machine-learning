@@ -12,16 +12,16 @@ from sklearn.metrics import make_scorer, fbeta_score
 # http://scikit-learn.org/stable/modules/model_evaluation.html
 def plot_validation_curve(sample=None,
                           param_name=None,
-                          scoring='accuracy',
+                          scoring=None,
                           param_range=None):
-    train_mean, test_mean = train_model(sample, param_name, scoring, param_range)
+    train_mean, test_mean = train_model(param_name, scoring, param_range)
     plt.plot(param_range, train_mean, 'o-', color='r', label='train')
     plt.plot(param_range, test_mean, 'o-', color='g', label='test')
     format_plot(sample, param_name, scoring)
     plt.show()
 
 
-def train_model(sample, param_name, scoring, param_range):
+def train_model(param_name, scoring, param_range):
     model = DecisionTreeClassifier(random_state=42)
     train_scores, test_scores = validation_curve(
         model, X_train, y_train,
@@ -45,6 +45,7 @@ def format_plot(sample, param_name, scoring):
 if __name__ == '__main__':
     sample = .1
     X_train, X_test, y_train, y_test = split_data(sample=sample)
+    # scorer = 'accuracy'
     scorer = make_scorer(fbeta_score, beta=0.5, average='micro')
 
     # plot_validation_curve(sample=sample,

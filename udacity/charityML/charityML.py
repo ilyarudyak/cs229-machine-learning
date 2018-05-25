@@ -1,9 +1,5 @@
 import numpy as np
 import pandas as pd
-from time import time
-import matplotlib.pyplot as plt
-
-import visuals as vs
 
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
