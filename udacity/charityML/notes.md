@@ -32,7 +32,8 @@ predicts whether an individual makes more than `$50,000`.
 
 ### data exploration
 
-- n_records=`45,222` n_greater_50k=`11,208` n_at_most_50k=`34,014` greater_percent=`24.8%`
+- n_records=`45,222` n_greater_50k=`11,208` n_at_most_50k=`34,014` 
+greater_percent=`24.8%`
 
 ### algorithms comparison
 
@@ -42,7 +43,12 @@ predicts whether an individual makes more than `$50,000`.
     - gaussian NB accuracy = `59.8%`
     - svm accuracy = `83.7%`
 
-### questions
+### plans
 
-- when to use Gaussian NB?
-- what kernel to use in SVM?
+- plot validation curves for DT: for max_depth and min_samples_split;
+first with accuracy and then with f1;
+- plot learning curves for DT;
+- optimize DT model;
+- do regression and random forest;
+- do timing of all algorithms on a small subset; 
+- do last chapter (feature selection);
