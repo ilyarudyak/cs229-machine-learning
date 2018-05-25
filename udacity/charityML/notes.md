@@ -24,7 +24,7 @@ to improve upon the untuned model's F-score.
 
 - **Feature Importance.**
 
-### goal
+### goal and metric
 
 - Your goal with this implementation is to construct a model that accurately 
 predicts whether an individual makes more than `$50,000`.
@@ -32,4 +32,16 @@ predicts whether an individual makes more than `$50,000`.
 
 ### data exploration
 
-- `n_records=45,222 n_greater_50k=11,208 n_at_most_50k=34,014 greater_percent=24.8%`
+- n_records=`45,222` n_greater_50k=`11,208` n_at_most_50k=`34,014` greater_percent=`24.8%`
+
+### algorithms comparison
+
+- accuracy score: 
+    - decision tree accuracy = `85.1%`
+    - gaussian NB accuracy = `59.8%`
+    - svm accuracy = `83.7%`
+
+### questions
+
+- when to use Gaussian NB?
+- what kernel to use in SVM?
