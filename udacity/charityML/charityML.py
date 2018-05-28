@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 
+from time import time
+
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split
 
@@ -79,18 +81,24 @@ def fit_svm():
 
 
 if __name__ == '__main__':
-    X_train, X_test, y_train, y_test = split_data(sample=1)
+    X_train, X_test, y_train, y_test = split_data(sample=.1)
     print(X_train.shape)
 
-    accuracy, fbeta05 = fit_decision_tree()
-    print(f'decision tree accuracy = {accuracy*100:.4f}% '
-          f'beta .5 = {fbeta05*100:.4f}%')
+    # start = time()
+    # accuracy, fbeta05 = fit_decision_tree()
+    # print(f'decision tree accuracy = {accuracy*100:.4f}% '
+    #       f'beta .5 = {fbeta05*100:.4f}% '
+    #       f'time={time()-start:.4f}s')
 
+    # start = time()
     # accuracy, fbeta05 = fit_gaussian_nb()
     # print(f'gaussian NB accuracy = {accuracy*100:.1f}% '
-    #       f'beta .5 = {fbeta05*100:.1f}%')
+    #       f'beta .5 = {fbeta05*100:.1f}% '
+    #       f'time={time()-start:.4f}s')
 
-    # accuracy, fbeta05 = fit_svm()
-    # print(f'svm accuracy = {accuracy*100:.1f}% '
-    #       f'beta .5 = {fbeta05*100:.1f}%')
+    start = time()
+    accuracy, fbeta05 = fit_svm()
+    print(f'svm accuracy = {accuracy*100:.1f}% '
+          f'beta .5 = {fbeta05*100:.1f}%'
+          f'time={time()-start:.4f}s')
 

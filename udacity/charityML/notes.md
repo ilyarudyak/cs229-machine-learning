@@ -42,6 +42,10 @@ greater_percent=`24.8%`
     - decision tree (min_samples_split=`300`) accuracy = `85.1%` beta .5 = `70.9%` 
     - gaussian NB accuracy = `36.6%` beta .5 = `32.0%`
     - svm accuracy = `83.3%` beta .5 = `67.1%`
+- time: 
+    - decision tree (max_depth=`6`): time=`0.0245s`;
+    - gaussian NB: time=`0.0419s`;
+    - svm: time=`2.5895s`;
     
 ### decision trees
 
@@ -64,8 +68,6 @@ first with accuracy and then with f1; --DONE
 - what should we do with features, data volume? 
 train on max data set (and optimized on it also, but we don't do this); 
 no reason to work with features --DONE
-- question: what about balance between recall and precision; can we use
-F1 score, not F.5?
 
 #### more models
 - do logistic regression and random forest;
@@ -74,7 +76,7 @@ F1 score, not F.5?
 - listen Ng about SVM and try to implement it;
 
 #### misc
-- do timing of all algorithms on a small subset; 
+- do timing of all algorithms on a small subset; --DONE
 
 #### questions
 - skewed features;
