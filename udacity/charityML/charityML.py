@@ -58,7 +58,7 @@ def split_data(sample=.1):
 
 
 def fit_decision_tree():
-    dt = DecisionTreeClassifier(min_samples_split=300)
+    dt = DecisionTreeClassifier(max_depth=6)
     dt.fit(X_train, y_train)
     y_pred = dt.predict(X_test)
     return accuracy_score(y_test, y_pred), fbeta_score(y_test, y_pred, beta=.5)

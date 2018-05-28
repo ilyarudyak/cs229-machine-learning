@@ -38,10 +38,20 @@ greater_percent=`24.8%`
 ### algorithms comparison
 
 - accuracy score (for 10% sample): 
-    - naive classifier = `24.8%` (== greater_percent)
+    - naive classifier = `24.8%` (== greater_percent - see above)
     - decision tree (min_samples_split=`300`) accuracy = `85.1%` beta .5 = `70.9%` 
     - gaussian NB accuracy = `36.6%` beta .5 = `32.0%`
     - svm accuracy = `83.3%` beta .5 = `67.1%`
+    
+### decision trees
+
+- optimized (on 10% data set):
+    - max_depth=`6`: decision tree accuracy = `84.6%` beta .5 = `69.7%`;
+    - min_samples_split=`250`: decision tree accuracy = `84.9%` beta .5 = `69.9%`;
+
+
+
+
 
 ### plans
 

@@ -24,6 +24,7 @@ def fit_model(X, y, params):
 if __name__ == '__main__':
     X_train, X_test, y_train, y_test = split_data(sample=.1)
 
-    max_depth_params = {'max_depth': range(1, 11)}
-    dtc_best = fit_model(X_train, y_train, max_depth_params)
-    print(dtc_best.get_params()['max_depth'])
+    # max_depth_params = {'max_depth': np.arange(1, 11)}
+    min_samples_split = {'min_samples_split': np.linspace(50, 600, 12).astype(int)}
+    dtc_best = fit_model(X_train, y_train, min_samples_split)
+    print(dtc_best.get_params()['min_samples_split'])
