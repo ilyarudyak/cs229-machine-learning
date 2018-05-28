@@ -33,7 +33,7 @@ def plot_multiple_curves(depths):
         ax[j].plot(sizes, train_mean, 'o-', color='b', label='train')
         ax[j].plot(sizes, test_mean, 'o-', color='r', label='test')
         ax[j].set_title(f'depth={depth}')
-    plt.legend(loc=(1.04,0))
+    plt.legend(loc=(1.04, 0))
     plt.show()
 
 

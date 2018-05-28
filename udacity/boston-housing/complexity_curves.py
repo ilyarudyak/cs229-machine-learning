@@ -5,6 +5,9 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, validation_curve
 from sklearn.tree import DecisionTreeRegressor
 
+# where to find possible scoring values?
+# http://scikit-learn.org/stable/modules/model_evaluation.html
+
 
 def get_data():
     data = pd.read_csv('housing.csv')
@@ -23,6 +26,8 @@ def plot_one_curve():
     train_mean, test_mean = train_model()
     plt.plot(max_depth, train_mean, 'o-', color='r', label='train')
     plt.plot(max_depth, test_mean, 'o-', color='g', label='test')
+    plt.xlabel('max_depth')
+    plt.ylabel('mean score')
     plt.legend()
     plt.show()
 
