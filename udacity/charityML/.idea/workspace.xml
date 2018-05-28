@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../boston-housing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boston-housing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../boston-housing/complexity_curves.py" beforeDir="false" afterPath="$PROJECT_DIR$/../boston-housing/complexity_curves.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ilyarudyak.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/charityML.py" beforeDir="false" afterPath="$PROJECT_DIR$/charityML.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/charityML_decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/charityML_decision_tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
     </list>
@@ -21,8 +24,8 @@
         <entry file="file://$PROJECT_DIR$/notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="419">
-                <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+              <first_editor relative-caret-position="277">
+                <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
               </first_editor>
               <second_editor />
             </state>
@@ -32,8 +35,8 @@
       <file leaf-file-name="charityML.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/charityML.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+            <state relative-caret-position="-158">
+              <caret line="63" column="78" selection-start-line="63" selection-start-column="78" selection-end-line="63" selection-end-column="78" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -44,8 +47,8 @@
       <file leaf-file-name="charityML_decision_tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+            <state relative-caret-position="152">
+              <caret line="67" column="57" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -300,20 +303,20 @@
     <entry file="file://$PROJECT_DIR$/validation_curve_3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/charityML.py">
+    <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="86" column="42" selection-start-line="86" selection-start-column="42" selection-end-line="86" selection-end-column="42" />
+        <state relative-caret-position="152">
+          <caret line="67" column="57" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
+    <entry file="file://$PROJECT_DIR$/charityML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" column="69" selection-start-line="27" selection-start-column="69" selection-end-line="27" selection-end-column="69" />
+        <state relative-caret-position="-158">
+          <caret line="63" column="78" selection-start-line="63" selection-start-column="78" selection-end-line="63" selection-end-column="78" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -323,8 +326,8 @@
     <entry file="file://$PROJECT_DIR$/notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="419">
-            <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <first_editor relative-caret-position="277">
+            <caret line="50" column="89" selection-start-line="50" selection-start-column="89" selection-end-line="50" selection-end-column="89" />
           </first_editor>
           <second_editor />
         </state>

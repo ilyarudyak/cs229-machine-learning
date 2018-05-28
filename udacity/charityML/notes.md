@@ -48,6 +48,7 @@ greater_percent=`24.8%`
 - optimized (on 10% data set):
     - max_depth=`6`: decision tree accuracy = `84.6%` beta .5 = `69.7%`;
     - min_samples_split=`250`: decision tree accuracy = `84.9%` beta .5 = `69.9%`;
+- max_depth=`6`(full data set): decision tree accuracy = `85.2294%` beta .5 = `72.2433%`;
 
 
 
@@ -58,9 +59,11 @@ greater_percent=`24.8%`
 #### decision trees
 - plot validation curves for DT: for max_depth and min_samples_split;
 first with accuracy and then with f1; --DONE
-- optimize DT model on 10% subset;
-- plot learning curves for DT;
-- what should we do with features, data volume?
+- optimize DT model on 10% subset; --DONE
+- plot learning curves for DT; --DONE
+- what should we do with features, data volume? 
+train on max data set (and optimized on it also, but we don't do this); 
+no reason to work with features --DONE
 - question: what about balance between recall and precision; can we use
 F1 score, not F.5?
 
