@@ -79,18 +79,18 @@ def fit_svm():
 
 
 if __name__ == '__main__':
-    X_train, X_test, y_train, y_test = split_data()
+    X_train, X_test, y_train, y_test = split_data(sample=.1)
     print(X_train.shape)
 
-    # accuracy, fbeta05 = fit_decision_tree()
-    # print(f'decision tree accuracy = {accuracy*100:.1f}% '
-    #       f'beta .5 = {fbeta05*100:.1f}%')
+    accuracy, fbeta05 = fit_decision_tree()
+    print(f'decision tree accuracy = {accuracy*100:.1f}% '
+          f'beta .5 = {fbeta05*100:.1f}%')
 
     # accuracy, fbeta05 = fit_gaussian_nb()
     # print(f'gaussian NB accuracy = {accuracy*100:.1f}% '
     #       f'beta .5 = {fbeta05*100:.1f}%')
 
-    accuracy, fbeta05 = fit_svm()
-    print(f'svm accuracy = {accuracy*100:.1f}% '
-          f'beta .5 = {fbeta05*100:.1f}%')
+    # accuracy, fbeta05 = fit_svm()
+    # print(f'svm accuracy = {accuracy*100:.1f}% '
+    #       f'beta .5 = {fbeta05*100:.1f}%')
 

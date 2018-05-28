@@ -45,10 +45,26 @@ greater_percent=`24.8%`
 
 ### plans
 
+#### decision trees
 - plot validation curves for DT: for max_depth and min_samples_split;
-first with accuracy and then with f1;
+first with accuracy and then with f1; --DONE
+- optimize DT model on 10% subset;
 - plot learning curves for DT;
-- optimize DT model;
-- do regression and random forest;
+- what should we do with features, data volume?
+- question: what about balance between recall and precision; can we use
+F1 score, not F.5?
+
+#### more models
+- do logistic regression and random forest;
+- plot validation curves for SVM;
+- try to optimize SVM on 10% data set; can we beat DT?
+- listen Ng about SVM and try to implement it;
+
+#### misc
 - do timing of all algorithms on a small subset; 
-- do last chapter (feature selection);
+
+#### questions
+- skewed features;
+- one hot encoding alternatives;
+- question: what about balance between recall and precision; can we use
+F1 score, not F.5?
