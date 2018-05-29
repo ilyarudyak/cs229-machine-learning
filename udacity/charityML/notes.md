@@ -62,6 +62,7 @@ greater_percent=`24.8%`
 
 #### full subset
 - not optimized (n_estimators=`1000`, max_depth=`6`): accuracy = `84.2897%` beta .5 = `70.0953%` time=`17.4994s`;
+- partially optimized (n_estimators=`500`, max_depth=`6`, max_features=`.7`): accuracy = `85.2626%` beta .5 = `72.3113%` time=`39.1067s`;
 
 
 

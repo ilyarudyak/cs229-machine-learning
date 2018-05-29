@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2abe2d0-46d1-4801-a7d6-ed5115f06db9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/random_forest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../books/handbook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/handbook/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../boston-housing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boston-housing/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_forest.py" beforeDir="false" afterPath="$PROJECT_DIR$/random_forest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,10 +21,22 @@
         <entry file="file://$PROJECT_DIR$/notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="135">
-                <caret line="63" column="113" selection-start-line="63" selection-start-column="113" selection-end-line="63" selection-end-column="113" />
+              <first_editor relative-caret-position="327">
+                <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="charityML_decision_tree.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="55" selection-end-column="44" />
+              <folding>
+                <element signature="e#2238#2290#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -33,10 +44,13 @@
       <file leaf-file-name="random_forest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/random_forest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+            <state relative-caret-position="238">
+              <caret line="14" column="79" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="79" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#631#826#0" />
+                <element signature="e#852#949#0" />
+                <element signature="e#975#1321#0" />
+                <element signature="e#1369#1409#0" />
               </folding>
             </state>
           </provider>
@@ -269,13 +283,6 @@
         <state relative-caret-position="1340">
           <caret line="67" column="57" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
           <folding>
-            <element signature="e#355#648#0" />
-            <element signature="e#682#885#0" />
-            <element signature="e#911#1042#0" />
-            <element signature="e#1068#1505#0" />
-            <element signature="e#1539#1579#0" />
-            <element signature="e#1627#1780#0" />
-            <element signature="e#1839#2038#0" />
             <element signature="e#2238#2290#0" />
           </folding>
         </state>
@@ -295,13 +302,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#355#648#0" />
-            <element signature="e#682#885#0" />
-            <element signature="e#911#1042#0" />
-            <element signature="e#1068#1505#0" />
-            <element signature="e#1539#1579#0" />
-            <element signature="e#1627#1780#0" />
-            <element signature="e#1839#2038#0" />
             <element signature="e#2238#2290#0" />
           </folding>
         </state>
@@ -366,23 +366,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="77" column="60" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="60" />
-          <folding>
-            <element signature="e#355#648#0" />
-            <element signature="e#682#885#0" />
-            <element signature="e#911#1042#0" />
-            <element signature="e#1068#1505#0" />
-            <element signature="e#1539#1579#0" />
-            <element signature="e#1627#1780#0" />
-            <element signature="e#1839#2038#0" />
-            <element signature="e#2238#2290#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/charityML.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -393,12 +376,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="55" selection-end-column="44" />
+          <folding>
+            <element signature="e#2238#2290#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/random_forest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+        <state relative-caret-position="238">
+          <caret line="14" column="79" selection-start-line="14" selection-start-column="64" selection-end-line="14" selection-end-column="79" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#631#826#0" />
+            <element signature="e#852#949#0" />
+            <element signature="e#975#1321#0" />
+            <element signature="e#1369#1409#0" />
           </folding>
         </state>
       </provider>
@@ -406,8 +402,8 @@
     <entry file="file://$PROJECT_DIR$/notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="135">
-            <caret line="63" column="113" selection-start-line="63" selection-start-column="113" selection-end-line="63" selection-end-column="113" />
+          <first_editor relative-caret-position="327">
+            <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
           </first_editor>
           <second_editor />
         </state>
