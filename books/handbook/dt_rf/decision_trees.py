@@ -19,12 +19,12 @@ def get_data():
 
 
 def plot_data():
-    plt.scatter(X_train[:, 0], X_train[:, 1], c=y, cmap='rainbow')
+    plt.scatter(X_train[:, 0], X_train[:, 1], c=y_train, cmap='rainbow')
     plt.show()
 
 
-def dt_classifier():
-    dtc = DecisionTreeClassifier().fit(X_train, y_train)
+def dt_classifier(max_depth=None):
+    dtc = DecisionTreeClassifier(max_depth=max_depth).fit(X_train, y_train)
     plot_decision_regions(X_train, y_train,
                           clf=dtc,
                           legend=2,
@@ -75,6 +75,7 @@ if __name__ == '__main__':
 
     # dt_classifier()
     # plot_validation_curve()
-    dt_optimized = fit_model()
-    print(f'optimized max_depth = {dt_optimized.get_params()["max_depth"]} '
-          f'optimized accuracy = {accuracy_score(y_test, dt_optimized.predict(X_test))*100:.1f}%')
+    # dt_optimized = fit_model()
+    # print(f'optimized max_depth = {dt_optimized.get_params()["max_depth"]} '
+    #       f'optimized accuracy = {accuracy_score(y_test, dt_optimized.predict(X_test))*100:.1f}%')
+    dt_classifier(max_depth=4)

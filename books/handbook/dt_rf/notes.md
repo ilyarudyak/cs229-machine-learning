@@ -1,0 +1,2 @@
+- DT optimized (max_depth=`4`): accuracy = `90.0%`;
+- RF n_estimators=100: accuracy `91.7%`;

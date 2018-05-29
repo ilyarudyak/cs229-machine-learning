@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8e3952-f821-4060-a2c7-083cf75e7560" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dt_rf/notes.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dt_rf/random_forest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dt_rf/decision_trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/dt_rf/decision_trees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../udacity/boston-housing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../udacity/boston-housing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../udacity/charityML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../udacity/charityML/.idea/workspace.xml" afterDir="false" />
@@ -16,11 +19,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="decision_trees.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="notes.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dt_rf/notes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="20">
+                <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decision_trees.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dt_rf/decision_trees.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="138">
+              <caret line="34" selection-start-line="34" selection-end-line="59" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#282#347#0" />
+                <element signature="e#1053#1242#0" />
+                <element signature="e#1258#1342#0" />
+                <element signature="e#1340#1673#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random_forest.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dt_rf/random_forest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -51,6 +82,8 @@
         <option value="$PROJECT_DIR$/clustering/gmm.py" />
         <option value="$PROJECT_DIR$/pca/eigenfaces.py" />
         <option value="$PROJECT_DIR$/dt_rf/decision_trees.py" />
+        <option value="$PROJECT_DIR$/dt_rf/notes.md" />
+        <option value="$PROJECT_DIR$/dt_rf/random_forest.py" />
       </list>
     </option>
   </component>
@@ -113,7 +146,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.decision_trees">
+  <component name="RunManager" selected="Python.random_forest">
     <configuration name="compression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="handbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,24 +178,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dt_rf/decision_trees.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="digits (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="handbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/digits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,20 +219,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="random_forest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="handbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dt_rf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dt_rf/random_forest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.eigenfaces" />
-      <item itemvalue="Python.digits (1)" />
       <item itemvalue="Python.compression" />
       <item itemvalue="Python.gmm" />
       <item itemvalue="Python.decision_trees" />
+      <item itemvalue="Python.random_forest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random_forest" />
         <item itemvalue="Python.decision_trees" />
         <item itemvalue="Python.eigenfaces" />
         <item itemvalue="Python.gmm" />
         <item itemvalue="Python.compression" />
-        <item itemvalue="Python.digits (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -389,10 +422,34 @@
     <entry file="file://$PROJECT_DIR$/dt_rf/dt_default_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/dt_rf/notes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="20">
+            <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dt_rf/decision_trees.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+        <state relative-caret-position="138">
+          <caret line="34" selection-start-line="34" selection-end-line="59" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#282#347#0" />
+            <element signature="e#1053#1242#0" />
+            <element signature="e#1258#1342#0" />
+            <element signature="e#1340#1673#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt_rf/random_forest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
