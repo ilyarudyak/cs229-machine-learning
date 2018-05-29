@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2abe2d0-46d1-4801-a7d6-ed5115f06db9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../../books/handbook/dt_rf/digits.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/random_forest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../books/handbook/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../books/handbook/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../boston-housing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../boston-housing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/charityML_decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/charityML_decision_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finding_donors.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/finding_donors.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/notes.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,40 +22,19 @@
         <entry file="file://$PROJECT_DIR$/notes.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="164">
-                <caret line="54" column="89" lean-forward="true" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
+              <first_editor relative-caret-position="135">
+                <caret line="63" column="113" selection-start-line="63" selection-start-column="113" selection-end-line="63" selection-end-column="113" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="charityML.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/charityML.py">
+      <file leaf-file-name="random_forest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/random_forest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="finding_donors.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/finding_donors.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="charityML_decision_tree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+            <state relative-caret-position="104">
+              <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -88,14 +66,15 @@
         <option value="$PROJECT_DIR$/visuals.py" />
         <option value="$PROJECT_DIR$/validation_curves.py" />
         <option value="$PROJECT_DIR$/charityML.py" />
-        <option value="$PROJECT_DIR$/notes.md" />
         <option value="$PROJECT_DIR$/charityML_decision_tree.py" />
+        <option value="$PROJECT_DIR$/random_forest.py" />
+        <option value="$PROJECT_DIR$/notes.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="127" />
-    <option name="y" value="31" />
+    <option name="x" value="39" />
+    <option name="y" value="22" />
     <option name="width" value="1099" />
     <option name="height" value="695" />
   </component>
@@ -137,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.charityML_decision_tree">
+  <component name="RunManager" selected="Python.random_forest">
     <configuration name="charityML" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="charityML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,6 +153,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="random_forest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="charityML" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random_forest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="validation_curves" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="charityML" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -196,9 +193,11 @@
       <item itemvalue="Python.charityML" />
       <item itemvalue="Python.validation_curves" />
       <item itemvalue="Python.charityML_decision_tree" />
+      <item itemvalue="Python.random_forest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.random_forest" />
         <item itemvalue="Python.charityML_decision_tree" />
         <item itemvalue="Python.charityML" />
         <item itemvalue="Python.validation_curves" />
@@ -219,7 +218,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="127" y="31" width="1099" height="695" extended-state="0" />
+    <frame x="39" y="22" width="1099" height="695" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24931756" />
@@ -270,7 +269,14 @@
         <state relative-caret-position="1340">
           <caret line="67" column="57" selection-start-line="67" selection-start-column="57" selection-end-line="67" selection-end-column="57" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#355#648#0" />
+            <element signature="e#682#885#0" />
+            <element signature="e#911#1042#0" />
+            <element signature="e#1068#1505#0" />
+            <element signature="e#1539#1579#0" />
+            <element signature="e#1627#1780#0" />
+            <element signature="e#1839#2038#0" />
+            <element signature="e#2238#2290#0" />
           </folding>
         </state>
       </provider>
@@ -289,7 +295,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#355#648#0" />
+            <element signature="e#682#885#0" />
+            <element signature="e#911#1042#0" />
+            <element signature="e#1068#1505#0" />
+            <element signature="e#1539#1579#0" />
+            <element signature="e#1627#1780#0" />
+            <element signature="e#1839#2038#0" />
+            <element signature="e#2238#2290#0" />
           </folding>
         </state>
       </provider>
@@ -353,20 +366,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="77" column="60" selection-start-line="77" selection-start-column="4" selection-end-line="77" selection-end-column="60" />
+          <folding>
+            <element signature="e#355#648#0" />
+            <element signature="e#682#885#0" />
+            <element signature="e#911#1042#0" />
+            <element signature="e#1068#1505#0" />
+            <element signature="e#1539#1579#0" />
+            <element signature="e#1627#1780#0" />
+            <element signature="e#1839#2038#0" />
+            <element signature="e#2238#2290#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/charityML.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="18" column="38" lean-forward="true" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state relative-caret-position="330">
+          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="90" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/charityML_decision_tree.py">
+    <entry file="file://$PROJECT_DIR$/random_forest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="89" column="13" lean-forward="true" selection-start-line="89" selection-start-column="13" selection-end-line="89" selection-end-column="13" />
+        <state relative-caret-position="104">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -376,8 +406,8 @@
     <entry file="file://$PROJECT_DIR$/notes.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="164">
-            <caret line="54" column="89" lean-forward="true" selection-start-line="54" selection-start-column="89" selection-end-line="54" selection-end-column="89" />
+          <first_editor relative-caret-position="135">
+            <caret line="63" column="113" selection-start-line="63" selection-start-column="113" selection-end-line="63" selection-end-column="113" />
           </first_editor>
           <second_editor />
         </state>

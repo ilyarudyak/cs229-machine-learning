@@ -54,7 +54,14 @@ greater_percent=`24.8%`
     - min_samples_split=`250`: decision tree accuracy = `84.9%` beta .5 = `69.9%`;
 - max_depth=`6`(full data set): decision tree accuracy = `85.2294%` beta .5 = `72.2433%`;
 
+### random forest
 
+#### small subset
+- not optimized (n_estimators=`1000`): accuracy = `83.8585%` beta .5 = `67.5367%` time=`5.8848s`;
+- not optimized (n_estimators=`1000`, max_depth=`6`): accuracy = `84.0464%` beta .5 = `69.6615%` time=`2.9952s;`
+
+#### full subset
+- not optimized (n_estimators=`1000`, max_depth=`6`): accuracy = `84.2897%` beta .5 = `70.0953%` time=`17.4994s`;
 
 
 
