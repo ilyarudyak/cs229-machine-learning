@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f8e3952-f821-4060-a2c7-083cf75e7560" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dt_rf/notes.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dt_rf/random_forest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dt_rf/digits.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../2017/pset1-quasar/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dt_rf/decision_trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/dt_rf/decision_trees.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../udacity/boston-housing/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../udacity/boston-housing/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../udacity/charityML/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../udacity/charityML/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../udacity/charityML/charityML_decision_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../udacity/charityML/charityML_decision_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../udacity/charityML/finding_donors.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../../udacity/charityML/finding_donors.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +47,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="random_forest.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="random_forest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dt_rf/random_forest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+            <state>
+              <caret selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="digits.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dt_rf/digits.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="29" selection-end-column="14" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -84,6 +96,7 @@
         <option value="$PROJECT_DIR$/dt_rf/decision_trees.py" />
         <option value="$PROJECT_DIR$/dt_rf/notes.md" />
         <option value="$PROJECT_DIR$/dt_rf/random_forest.py" />
+        <option value="$PROJECT_DIR$/dt_rf/digits.py" />
       </list>
     </option>
   </component>
@@ -146,25 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.random_forest">
-    <configuration name="compression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="handbook" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/clustering" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/clustering/compression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.digits">
     <configuration name="decision_trees" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="handbook" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,6 +173,24 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dt_rf/decision_trees.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="digits" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="handbook" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dt_rf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dt_rf/digits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,18 +252,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.eigenfaces" />
-      <item itemvalue="Python.compression" />
       <item itemvalue="Python.gmm" />
       <item itemvalue="Python.decision_trees" />
       <item itemvalue="Python.random_forest" />
+      <item itemvalue="Python.digits" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.digits" />
         <item itemvalue="Python.random_forest" />
         <item itemvalue="Python.decision_trees" />
         <item itemvalue="Python.eigenfaces" />
         <item itemvalue="Python.gmm" />
-        <item itemvalue="Python.compression" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +290,7 @@
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.5405777" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35213205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3287483" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -448,8 +461,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dt_rf/random_forest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        <state>
+          <caret selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dt_rf/digits.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="29" selection-end-column="14" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
